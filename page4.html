@@ -73,14 +73,17 @@
 
         .leadership-card img {
             display: inline-block;
-            width: 350px;
-            height: auto;
-        }
+            width: 100%;           /* Makes image width responsive */
+            height: auto;          /* Ensures the height scales proportionally */
+            max-width: 350px;      /* Maximum width the image can scale to */
+            }
+        
 
         .leadership-card video{
             display: inline-block;
-            width: 350px;
+            width: 100%;
             height: auto;
+            max-width: 350px;
             border-radius: 8px;
             margin-top: 10px;
         }

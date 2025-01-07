@@ -73,15 +73,15 @@
             }
 
             .card {
-                display: flex;
-                align-items: center;
-                background-color: #e6f0ff;
+                flex: 1 1 calc(33% - 20px); /* 3 cards in a row */
+                box-sizing: border-box;
+                background-color: #e6f0ff; /* Light blue for cards */
                 border-radius: 8px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 padding: 15px;
-                gap: 15px;
+                text-align: center;
                 transition: transform 0.3s ease;
-                }
+                margin: 20px;
+            }
 
             .card-img {
                 width: 200px;
